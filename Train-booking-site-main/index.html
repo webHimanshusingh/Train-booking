@@ -1,0 +1,1561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" href="logo.png" type="image/icon type">
+    <title>Indian Railways eTicketing system</title>
+</head>
+<body>
+    <!-- ========== Header ================ -->
+    <header>
+
+        <img src="secondry-logo.png" alt="secondry-logo" class="secondry-logo">
+        <img src="logo.png" alt="secondry-logo2" class="secondry-logo2">
+        <h1>Indian Railways</h1>
+        <h2>e-Ticket Booking System</h2>
+        
+        <ul>
+            <li><a class="header-link" href="login.html" target="_blank">LOGIN</a></li>
+            <li><a class="header-link" href="login.html" target="_blank">REGISTER</a></li>
+            <li><a class="header-link" href="#book-ticket">BOOK TICKET</a></li>
+            <li><a class="header-link" href="#pnr">PNR ENQURY</a></li>
+            <li><a class="header-link" href="#contact-us">CONTACT US</a></li>
+        </ul>
+    </header>
+
+    <div class="main-page">
+        <p>
+            <span class="new">New</span> IRCTC launches ticket booking onASK DISHA 2.0 <a href="error-page.html" target="_blank" class="try">Try booking in Ask DISHA 2.0</a>
+            <br>
+            <span class="new">Ticket booked through unauthorised agents or scripting can be released without refund.
+            <br>
+            please input correct mobile number of passenger for getting timely alerts on booked journey
+            </span>
+        </p>
+
+    </div>
+
+    <div class="adv">
+        <h1 class="plan">INDIAN RAILWAY<br><span class="gold">Safety Security Punctuality</span></h1>
+        <a href="https://googleads.g.doubleclick.net/pcs/click?xai=AKAOjss0Lh2oBzj_aeTWknnl2LHYg-N4B_V0YaPqFSG_Kky_c-9DcUI23Rx7nXaEhcWu1UXes5LRyvxvR3TUkvYzDtZkcYM0H5wkNzsIKEfEHw30K15_eOMtZlcPinX72LxoNoALeITszq0QqEm_n_ua4Vdo35innmU2qKJ9gRDcOt050AgAUAoosJS5PqakhnF-TrUfIENOHNJW0HJJ58NZbdRh4xdZG4gRU7DtXe03Ez64B_qgTF6iu-ITHmpc8_P6tkBFtWV8spwjaOD0603NDUi7wFz8xEY49sr6mezELZrQT_ANt4YxZnzxili62CIn2nubdcjZ-H6i&sai=AMfl-YRlxfs8ScgmXQl8PacIKh-ejnNiU-GY3qdjeK48_WoLbluRpetyxb976QHGnbr2hTtgpZk5XpJizk8gKb0&sig=Cg0ArKJSzNXDpRNkP1hs&fbs_aeid=[gw_fbsaeid]&adurl=https://www.goldenchariot.org/%23/home&nm=34&nx=275&ny=-54&mb=2" target="_blank">  <img src="adv.png" alt="adv"> </a>
+    </div>
+
+    <!-- ======== train img ================= -->
+    <div class="train-img">
+        <img src="Bharat-Train.jpg" alt="train image">
+    </div>
+    
+    <marquee behavior="" direction="left">INDIAN RAILWAY ONLINE TICKET BOOKING SYSTEM</marquee>
+
+
+    <!-- =========== Book ticket ============== -->
+
+    <div class="book-ticket" id="book-ticket">
+        <h1>Book Ticket</h1>
+        <form action="error-page.html"> 
+            <label for="from">From:</label>
+            <select name="from" id="from" required>
+                <option > Station From</option>
+                <option > ABU ROAD ABR</option>
+                <option > adilabad adb</option>
+                <option > ADONI AD</option>
+                <option > ADRA ADRA</option>
+                <option > AGARTALA AGTL</option>
+                <option > AGRA FORT AF</option>
+                <option > AGRA CANTT. AGC</option>
+                <option > AHMADNAGAR ANG</option>
+                <option > AHMEDABAD ADI</option>
+                <option > AJMER AII</option>
+                <option > Ajni AJNI</option>
+                <option > AKOLA AK</option>
+                <option > ALIGARH ALJN</option>
+                <option > ALIPURDUAR Jn. APDJ</option>
+                <option > ALLAHABAD ALD</option>
+                <option > ALAPPUZHA ALLP</option>
+                <option > ALNAWAR Jn. LWR</option>
+                <option > ALUVA AWY</option>
+                <option > ALWAR AWR</option>
+                <option > AMALNER AN</option>
+                <option > AMB ANDAVRA AADR</option>
+                <option > AMBALA CANTT. UMB</option>
+                <option > AMBIKAPUR abkp</option>
+                <option > AMLa Amla</option>
+                <option > AMRITSAR ASR</option>
+                <option > ANAKAPALLE AKP</option>
+                <option > ANAND ANND</option>
+                <option > ANAND NAGAR ANDN</option>
+                <option > ANAND VIHar Terminus ANVT</option>
+                <option > ANANTAPUR ATP</option>
+                <option > ANGUL ANGL</option>
+                <option > ANNAVARAM ANV</option>
+                <option > ANUPPUR apr</option>
+                <option > ARA ARA</option>
+                <option > ARAKKONAM AJJ</option>
+                <option > ARSIKERE ASK</option>
+                <option > ASANSOL ASN</option>
+                <option > AUNRIHAR ARJ</option>
+                <option > AURANGABAD AWB</option>
+                <option > AYODHYA AY</option>
+                <option > AZAMGARH AMH</option>
+                <option > AZIMGANJ Jn. AZ</option>
+                <option > BADARPUR BPB</option>
+                <option > BADNERA Jn. BD</option>
+                <option > BAGALKOT Bgk</option>
+                <option > BAGHPAT ROAD BPM</option>
+                <option > BAIDYANATHDHAM BDME</option>
+                <option > BAKTHIYARPUR bKP</option>
+                <option > BALASORE BLS</option>
+                <option > BALAGHAT BTC</option>
+                <option > BALANGIR blgr</option>
+                <option > baluGAON BAlU</option>
+                <option > BALURGHAT BLGT</option>
+                <option > BALHARSHAH BPQ</option>
+                <option > BALLIA BUI</option>
+                <option > BANARHAT BNQ</option>
+                <option > BANDA Jn. BNDA</option>
+                <option > BANDEL Jn. BDC</option>
+                <option > BANDIKUI Jn. BKI</option>
+                <option > BANdra (T) Bdts</option>
+                <option > BANGALORE CITY SBC</option>
+                <option > BANGALORE CANTT. BNC</option>
+                <option > BANGARAPET BWt</option>
+                <option > bangriposi bgy</option>
+                <option > BANKURA BQA</option>
+                <option > BANMANKHI BNKI</option>
+                <option > BAPATLA BPP</option>
+                <option > BARABANKI Jn. BBK</option>
+                <option > BARaBIL BBN</option>
+                <option > BARAN BAZ</option>
+                <option > BARAUNI Jn. BJU</option>
+                <option > BARAUT BTU</option>
+                <option > BARAPALLI brPL</option>
+                <option > BARDDHAMAN Jn. BWN</option>
+                <option > BAREILLY BE</option>
+                <option > BARGARH ROAD BRGA</option>
+                <option > BARHNI BNY</option>
+                <option > BARKAKANA BRKA</option>
+                <option > BARMER BME</option>
+                <option > BAROG BOF</option>
+                <option > BARSOI BOE</option>
+                <option > BARWADIH BRWD</option>
+                <option > BASAR BSX</option>
+                <option > BASTI BST</option>
+                <option > BAThINDA Jn. BTI</option>
+                <option > BAYANA BXN</option>
+                <option > BEAS BEAS</option>
+                <option > BEAWAR BER</option>
+                <option > BELAPUR BAP</option>
+                <option > BELGAUM BGM</option>
+                <option > BELLARY Jn. BAY</option>
+                <option > BETTIAH BTH</option>
+                <option > BETUL BZU</option>
+                <option > BHADOHI BOY</option>
+                <option > BHADRAK BHC</option>
+                <option > BHAGALPUR BGP</option>
+                <option > Bhagat Ki Kothi BGKI</option>
+                <option > BHARATPUR BTE</option>
+                <option > BHARUCH BH</option>
+                <option > BHATAPARA BYT</option>
+                <option > BHATKAL BTJL</option>
+                <option > BHATNI BTT</option>
+                <option > BHAVNAGAR (t) BVC</option>
+                <option > BHAWANIPATNA BWPI</option>
+                <option > BHILWARA BHL</option>
+                <option > BHIMAVARAM Jn. BVRM</option>
+                <option > BHIMAVARAM TOWN BVRT</option>
+                <option > BHIND BIX</option>
+                <option > BHIWANI BNW</option>
+                <option > BHOPAL BPL</option>
+                <option > BHUBANESWAR BBS</option>
+                <option > BHUJ BHUJ</option>
+                <option > BHUSAVAL BSL</option>
+                <option > BIJAPUR BJP</option>
+                <option > BIJNOR BJO</option>
+                <option > BIKANER BKN</option>
+                <option > BILASPUR jn. BSP</option>
+                <option > BINA BINA</option>
+                <option > BINNAGURI BNV</option>
+                <option > BIRUR RRB</option>
+                <option > BITRAGUNTA BTTR</option>
+                <option > biyavara rajgarh brrg</option>
+                <option > BOBBILI VBL</option>
+                <option > BOINDA bONA</option>
+                <option > Barapalli brpl</option>
+                <option > baghbahar bgbr</option>
+                <option > BOKARO STEEL CITY BKSC</option>
+                <option > bOLPUR SHANTINIKETAn bhp</option>
+                <option > BORIVALI BVI</option>
+                <option > BOTAD BTD</option>
+                <option > BUDAUN BEM</option>
+                <option > bundi budi</option>
+                <option > BURHANPUR BAU</option>
+                <option > BURHWAL BUW</option>
+                <option > BUXAR BXR</option>
+                <option > CANACONA CNO</option>
+                <option > CHAKIA CAA</option>
+                <option > CHAKKI BANK CHKB</option>
+                <option > CHAKRADHARPUR CKP</option>
+                <option > CHALISGAON CSN</option>
+                <option > CHAMPA CPH</option>
+                <option > CHANDAUSI CH</option>
+                <option > chanderiya cna</option>
+                <option > CHANDIGARH CDG</option>
+                <option > CHANDIL CNI</option>
+                <option > CHANDRAPUR CD</option>
+                <option > CHANDRAPURA CRP</option>
+                <option > CHAPARMUKH CPK</option>
+                <option > cHATRAPUR CAP</option>
+                <option > CHENGALPATTU Jn. CGL</option>
+                <option > CHENGANNUR CNGR</option>
+                <option > CHENNAI CENTRAL MAS</option>
+                <option > CHENNAI EGMORE MS</option>
+                <option > CHHAPRA CPR</option>
+                <option > CHHINDWARA cwa</option>
+                <option > CHIDAMBARAM CDM</option>
+                <option > CHIKJAJUR JRU</option>
+                <option > CHIPLUN CHI</option>
+                <option > CHIRALA CLX</option>
+                <option > CHITRAKOOTDHAM KARVI CKTD</option>
+                <option > CHITTARANJAN CRJ</option>
+                <option > CHITTAURGARH COR</option>
+                <option > CHITTOOR CTO</option>
+                <option > CHOPAN CPU</option>
+                <option > CHUNAR CAR</option>
+                <option > CHURU CUR</option>
+                <option > COIMBATORE Jn. CBE</option>
+                <option > coonoor ONR</option>
+                <option > CUDDALORE PORT CUPJ</option>
+                <option > CUDDAPAH HX</option>
+                <option > CUTTACK CTC</option>
+                <option > DADAR DR</option>
+                <option > DAHANU ROAD DRD</option>
+                <option > DAHOD DHD</option>
+                <option > DALGAON DLO</option>
+                <option > DALTONGANJ DTO</option>
+                <option > DALLIRAJHARA DRZ</option>
+                <option > DAMOH DMO</option>
+                <option > DANAPUR DNR</option>
+                <option > DARBHANGA DBG</option>
+                <option > DAUND DD</option>
+                <option > DAVANGERE DVG</option>
+                <option > DEHRADUN DDN</option>
+                <option > DEHRI-ON-SONE DOS</option>
+                <option > DELHI DLI</option>
+                <option > NEW DELHI NDLS</option>
+                <option > DELHI CANTT. DEC</option>
+                <option > DELHI SARAI ROHILLA DEE</option>
+                <option > DELHI SHAHDARA DSA</option>
+                <option > DEORIASADAR DEOS</option>
+                <option > DEVLALI DVL</option>
+                <option > DHAMANGAON DMN</option>
+                <option > DHANBAD DHN</option>
+                <option > DHARMABAD DAB</option>
+                <option > dharmanagar dmr</option>
+                <option > DHARMAPURI DPJ</option>
+                <option > DHARMAVARAM DMM</option>
+                <option > DHARWAD DWR</option>
+                <option > DHASA DAS</option>
+                <option > DHAULPUR DHO</option>
+                <option > Dhenuanal dnul</option>
+                <option > DHOLA DLJ</option>
+                <option > DHONE DHNE</option>
+                <option > DHRANGADHRA DHG</option>
+                <option > dhubri dbb</option>
+                <option > DHURI DUI</option>
+                <option > DIBRUGARH DBRG</option>
+                <option > DIBRUGARH TOWN DBRT</option>
+                <option > digha dgha</option>
+                <option > DILDARNAGAR DLN</option>
+                <option > DIMAPUR DMV</option>
+                <option > DINDIGUL Jn. DG</option>
+                <option > DONGARGARH DGG</option>
+                <option > DORNAKAL DKJ</option>
+                <option > DUNGARPUR DNRP</option>
+                <option > DURG DURG</option>
+                <option > DURGAPUR DGR</option>
+                <option > duvvada dvd</option>
+                <option > DWARKA DWK</option>
+                <option > ELURU EE</option>
+                <option > ERNAKULAM Jn. ERS</option>
+                <option > ERNAKULAM TOWN ERN</option>
+                <option > ERODE ED</option>
+                <option > ETAWAH ETW</option>
+                <option > FAIZABAD FD</option>
+                <option > FARIDABAD FDB</option>
+                <option > FARRUKHABAD FBD</option>
+                <option > FATEhABAD CHAND FTD</option>
+                <option > FATEHPUR FTP</option>
+                <option > FATUHA FUT</option>
+                <option > FAZILKA FKA</option>
+                <option > FIROZABAD FZD</option>
+                <option > FIROZPUR CITY FZP</option>
+                <option > FIROZPUR CANTT. FZR</option>
+                <option > FORBESGANJ FBG</option>
+                <option > FURKATING FKG</option>
+                <option > GADAG GDG</option>
+                <option > GAJRAULA GJL</option>
+                <option > GANDHIDHAM GIM</option>
+                <option > GANDHINAGAR GADJ</option>
+                <option > GANGAPUR CITY GGC</option>
+                <option > GARWA ROAD GHD</option>
+                <option > GAYA GAYA</option>
+                <option > GEVRA ROAD GAD</option>
+                <option > GHATSILA GTS</option>
+                <option > GHAZIABAD GZB</option>
+                <option > GOALPARA TOWN GLPT</option>
+                <option > GODHRA GDA</option>
+                <option > GOLA GOKARANNATH GK</option>
+                <option > GONDA GD</option>
+                <option > GONDIA G</option>
+                <option > GOOTY GY</option>
+                <option > GORAKHPUR GKP</option>
+                <option > GOSsAINGAon HAT GOGH</option>
+                <option > GUDIVADA GDV</option>
+                <option > GUDUR GDR</option>
+                <option > GULBARGA GR</option>
+                <option > GUNA GUNA</option>
+                <option > GUNTAKAL GTL</option>
+                <option > GUNTUR GNT</option>
+                <option > gurgaon ggn</option>
+                <option > GUruvayUR Guv</option>
+                <option > GUWAHATI GHY</option>
+                <option > GWALIOR GWL</option>
+                <option > GYANPUR ROAD GYN</option>
+                <option > HABIBGANJ HBJ</option>
+                <option > HAJIPUR HJP</option>
+                <option > HALDIA HLZ</option>
+                <option > HALDIBARI HDB</option>
+                <option > HAMILTONGANJ HOJ</option>
+                <option > HANUMANGARH HMH</option>
+                <option > HAPA HAPA</option>
+                <option > HAPUR HPU</option>
+                <option > HARDA HD</option>
+                <option > HARIDWAR HW</option>
+                <option > HARIHAR HRR</option>
+                <option > HARPALPUR HPP</option>
+                <option > HASIMARA HSA</option>
+                <option > HATIA HTE</option>
+                <option > HAZUR SAHIB NANDED NED</option>
+                <option > HILSA HIL</option>
+                <option > HIMMAT NAGAR HMT</option>
+                <option > HINDUPUR HUP</option>
+                <option > HINGOLI HNL</option>
+                <option > HISAR HSR</option>
+                <option > HOSHANGABAD HBD</option>
+                <option > HOSPET HPT</option>
+                <option > HOSUR HSRA</option>
+                <option > HOWBAdH HBG</option>
+                <option > HOWRAH HWH</option>
+                <option > HUBLI UBL</option>
+                <option > HYDERABAD HYB</option>
+                <option > IGATPURI IGP</option>
+                <option > INDARA IAA</option>
+                <option > INDORE INDB</option>
+                <option > ISLAMPUR IPR</option>
+                <option > ITARSI ET</option>
+                <option > JABALPUR JBP</option>
+                <option > Jagdalpur jdb</option>
+                <option > JAIPUR JP</option>
+                <option > Jaypur jyp</option>
+                <option > JAISALMER JSM</option>
+                <option > JAJPUR KEONJHAR ROAD JJKR</option>
+                <option > JAKHAL JHL</option>
+                <option > JALAMB JM</option>
+                <option > JALANDHAR CANTT. JRC</option>
+                <option > JALANDHAR CITY JUC</option>
+                <option > JALGAON JL</option>
+                <option > JALNA J</option>
+                <option > JALPAIGURI JPG</option>
+                <option > JAMALPUR JMP</option>
+                <option > JAMMU TAWI JAT</option>
+                <option > JAMNAGAR JAM</option>
+                <option > JANGHAI JNH</option>
+                <option > JASIDIH JSME</option>
+                <option > JAUNPUR Jn. JNU</option>
+                <option > JAYNAGAR JYG</option>
+                <option > JETALSAR JLR</option>
+                <option > JHAJHA JAJ</option>
+                <option > JHANSI JHS</option>
+                <option > JHARGRAM JGM</option>
+                <option > JHARSUGUDA JSG</option>
+                <option > JIND JIND</option>
+                <option > JODHPUR JU</option>
+                <option > jogbani JBN</option>
+                <option > JOLARPETTAI JTJ</option>
+                <option > JORHAT JT</option>
+                <option > JUNAGARH Jn. JND</option>
+                <option > KACHEGUDA KCG</option>
+                <option > KAKINADA PORT COA</option>
+                <option > KALCHINI KCF</option>
+                <option > KALKA KLK</option>
+                <option > KALOL KLL</option>
+                <option > KALYAN KYN</option>
+                <option > KAMAKHYA KYQ</option>
+                <option > KANCHIPURAM CJ</option>
+                <option > KANDHLA KQL</option>
+                <option > KANNIYAKUMARI CAPE</option>
+                <option > KANNUR CAN</option>
+                <option > KANPUR CENTRAL CNB</option>
+                <option > KANPUR ANWARGANJ CPA</option>
+                <option > KAPTANGANJ CPJ</option>
+                <option > Karaikal kik</option>
+                <option > KARAIKKUDI Jn. KKDI</option>
+                <option > KARimganj kxj</option>
+                <option > KARNAL KUN</option>
+                <option > KARUR KRR</option>
+                <option > KARWAR KAWR</option>
+                <option > KASARaGOD KGQ</option>
+                <option > KASGANJ KSJ</option>
+                <option > KATHGODAM KGM</option>
+                <option > KATIHAR KIR</option>
+                <option > KATNI KTE</option>
+                <option > KATNI MURWARA KMZ</option>
+                <option > KATPADI KPD</option>
+                <option > KATWA KWAE</option>
+                <option > Station Name Code Station Name Code Station Name Code Station Name Code</option>
+                <option > 44</option>
+                <option > Station Code Index</option>
+                <option > TAG-13</option>
+                <option > KAZIPET KZJ</option>
+                <option > kESINGA ksng</option>
+                <option > KENDUJHARGARH KDJR</option>
+                <option > KHAGARIA KGG</option>
+                <option > KHALILABAD KLD</option>
+                <option > KHAMMAM KMT</option>
+                <option > KHANDWA KNW</option>
+                <option > KHARAGPUR KGP</option>
+                <option > KHEKRA KEX</option>
+                <option > KHURDA ROAD KUR</option>
+                <option > KHURJA KRJ</option>
+                <option > KISHANGANJ KNE</option>
+                <option > KISHANGARH KSG</option>
+                <option > KIUL KIUL</option>
+                <option > KOCHUVELI KCVL</option>
+                <option > KODAIKANAL ROAD KQN</option>
+                <option > kolkata koaa</option>
+                <option > kollam QLN</option>
+                <option > KOPERGAON KPG</option>
+                <option > KORAPUT KRPU</option>
+                <option > KORBA KRBA</option>
+                <option > KOTA KOTA</option>
+                <option > KOTDWARA KTW</option>
+                <option > KOT KAPURA KKP</option>
+                <option > KOTTAYAM KTYM</option>
+                <option > KOZHIKODE CLT</option>
+                <option > KRISHNANAGAR CITY KNJ</option>
+                <option > KRISHNARAJAPURAM KJM</option>
+                <option > kumarghat kugt</option>
+                <option > KUMBAKONAM KMU</option>
+                <option > KUNDAPURA KUDA</option>
+                <option > KURDUWADI KWV</option>
+                <option > KURNOOL TOWN KRNT</option>
+                <option > KURUKSHETRA KKDE</option>
+                <option > LAKHIMPUR LMP</option>
+                <option > LAKSAR LRJ</option>
+                <option > LALGARH LGH</option>
+                <option > LALGOLA LGL</option>
+                <option > LALITPUR LAR</option>
+                <option > LALKUAN JN. LKU</option>
+                <option > LATUR LUR</option>
+                <option > LEDO LEDO</option>
+                <option > LOHARU LHU</option>
+                <option > LOKMANYA TILAK (T) LTT</option>
+                <option > LONAVLA LNL</option>
+                <option > LONDA LD</option>
+                <option > LOWER HALFLONG LFG</option>
+                <option > LUCKNOW LJN/LKO</option>
+                <option > LUDHIANA LDH</option>
+                <option > LUMDING LMG</option>
+                <option > LUNI LUNI</option>
+                <option > MACHILIPATNAM MTM</option>
+                <option > MADARIHAT MDT</option>
+                <option > MADDUR MAD</option>
+                <option > MADGAON (GOA) MAO</option>
+                <option > MADHUBANI MBI</option>
+                <option > MADHUPUR MDP</option>
+                <option > MADURAI Jn. MDU</option>
+                <option > MAHASAMUND msmD</option>
+                <option > MAHBUBNAGAR MBNR</option>
+                <option > MAHuva mhv</option>
+                <option > MUNIGUDA mngd</option>
+                <option > MAHESANA MSH</option>
+                <option > MAHOBA MBA</option>
+                <option > MAILANI MLN</option>
+                <option > MAKSI MKC</option>
+                <option > MALDA TOWN MLDT</option>
+                <option > MANAMADURAI MNM</option>
+                <option > MANDUADIH MUV</option>
+                <option > MANGALORE CENTRAL MAQ</option>
+                <option > MANGALORE JN. MAJN</option>
+                <option > MANIKPUR MKP</option>
+                <option > MANKAPUR MUR</option>
+                <option > MANMAD MMR</option>
+                <option > Mannargudi MQ</option>
+                <option > MANSI MNE</option>
+                <option > manu manu</option>
+                <option > MARIANI MXN</option>
+                <option > MARWAR Jn. MJ</option>
+                <option > MATHURA MTJ</option>
+                <option > MAU MAU</option>
+                <option > MAYILADUTURAI Jn. MV</option>
+                <option > MEERUT CITY MTC</option>
+                <option > MERTA ROAD MTD</option>
+                <option > METTUPALAYAM MTP</option>
+                <option > MIDNAPore MDN</option>
+                <option > MIRAJ MRJ</option>
+                <option > MIRYALAGUDA MRGA</option>
+                <option > MIRZAPUR MZP</option>
+                <option > MOGA MOF</option>
+                <option > MOKAMA mka</option>
+                <option > PUDUKOTTAI PDKT</option>
+                <option > PULGAON PLO</option>
+                <option > PUNE Jn. PUNE</option>
+                <option > PURANPUR PP</option>
+                <option > PURI PURI</option>
+                <option > PURNA PAU</option>
+                <option > PURNIA PRNA</option>
+                <option > PURULIA PRR</option>
+                <option > RADHIKAPUR RDP</option>
+                <option > RAE BARELI RBL</option>
+                <option > RAICHUR RC</option>
+                <option > RAIGARH RIG</option>
+                <option > RAIPUR R</option>
+                <option > RAJAHMUNDRY RJY</option>
+                <option > RAJA-KA-SAHASPUR RJK</option>
+                <option > RAJA-KI-MANDI RKM</option>
+                <option > RAJENDRANAGAR RJQ</option>
+                <option > RAJGIR RGD</option>
+                <option > RAJKOT RJT</option>
+                <option > RAJNANDGAON RJN</option>
+                <option > RAJPURA RPJ</option>
+                <option > RAMAGUNDAM RDM</option>
+                <option > RAMANATHAPURAM RMD</option>
+                <option > RAMESWARAM RMM</option>
+                <option > RAMNAGAR RMR</option>
+                <option > RAMPUR JN. RMU</option>
+                <option > RAMPURHAT RPH</option>
+                <option > RANAGHAT RHA</option>
+                <option > RANCHI RNC</option>
+                <option > RANGAPARA NORTH RPAN</option>
+                <option > RANGIYA RNY</option>
+                <option > RANINAGAR ROJ</option>
+                <option > RATANGARH RTGH</option>
+                <option > RATLAM RTM</option>
+                <option > RATNAGIRI RN</option>
+                <option > RAWATGANJ RJ</option>
+                <option > RAXAUL RXL</option>
+                <option > RAYAGADA RGDA</option>
+                <option > RENIGUNTA RU</option>
+                <option > REWA REWA</option>
+                <option > REWARI RE</option>
+                <option > RINGUS RGS</option>
+                <option > ROHTAK ROK</option>
+                <option > ROORKEE RK</option>
+                <option > ROURKELA ROU</option>
+                <option > SADULPUR SDLP</option>
+                <option > SAGAR jambagaru SRF</option>
+                <option > SAGAULI SGL</option>
+                <option > SAGOUR SGO</option>
+                <option > SAHARANPUR SRE</option>
+                <option > SAHARSA SHC</option>
+                <option > SAHIBGANJ SBG</option>
+                <option > SAI NAGAR SHIRDI SNSI</option>
+                <option > SALEM SA</option>
+                <option > SALEMPUR SRU</option>
+                <option > SAMALKOT SLO</option>
+                <option > SAMASTIPUR SPJ</option>
+                <option > SAMBALPUR SBP</option>
+                <option > SAMBALPUR CITY SBPY</option>
+                <option > SAMDARI SMR</option>
+                <option > SAMUKTALA road AMTA</option>
+                <option > SANGLI SLI</option>
+                <option > santragachi src</option>
+                <option > SARNATH SRNT</option>
+                <option > SATARA STR</option>
+                <option > SATNA STA</option>
+                <option > SATTENAPALLE SAP</option>
+                <option > SAWAIMADHOPUR SWM</option>
+                <option > SAWANTWADI ROAD SWV</option>
+                <option > SEALDAH SDAH</option>
+                <option > SECUNDERABAD SC</option>
+                <option > SENGOTTAI SCT</option>
+                <option > SENSOA scf</option>
+                <option > SEWAGRAM SEGM</option>
+                <option > SHAHABAD SDB</option>
+                <option > SHAHGANJ SHG</option>
+                <option > SHAHJAHANPUR SPN</option>
+                <option > SHAHPUR PATOREE SPP</option>
+                <option > SHAKTINAGAR SKTN</option>
+                <option > SHALIMAR SHM</option>
+                <option > SHAMGARH SGZ</option>
+                <option > SHAMLI SMqL</option>
+                <option > SHIKOHABAD SKB</option>
+                <option > SHIMLA SML</option>
+                <option > SHIMOGA TOWN SMET</option>
+                <option > SHIVPURI SVPI</option>
+                <option > SHORANUR JN. SRR</option>
+                <option > SHRI MAHABIRJI SMBJ</option>
+                <option > SIHOR gujarat SOJN</option>
+                <option > SIKAR SIKR</option>
+                <option > MORADABAD MB</option>
+                <option > MOTIHARI MKI</option>
+                <option > MUDKHED MUE</option>
+                <option > MUGHALSARAI MGS</option>
+                <option > MUMBAI CENTRAL BCT</option>
+                <option > MUMBAI CST CSTM</option>
+                <option > Muniguda mngd</option>
+                <option > MURI MURI</option>
+                <option > MURKeONGSELEK MZS</option>
+                <option > MURTAJAPUR MZR</option>
+                <option > MUZAFFAR NAGAR MOZ</option>
+                <option > MUZAFFARPUR MFP</option>
+                <option > MYSORE MYS</option>
+                <option > nabadwipdham ndae</option>
+                <option > NADIAD ND</option>
+                <option > NADIKUDi NDKD</option>
+                <option > Nagappattinam Ngt</option>
+                <option > nagarkata nkb</option>
+                <option > NAGARSOL NSL</option>
+                <option > NAGBHIR NAB</option>
+                <option > NAGDA NAD</option>
+                <option > NAGERCOIL Jn. NCJ</option>
+                <option > NAGORE NCR</option>
+                <option > NAGPUR NGP</option>
+                <option > nagrakata nkb</option>
+                <option > NAINPUR NIR</option>
+                <option > NAJIBABAD NBD</option>
+                <option > NALANDA NLD</option>
+                <option > NALGONDA NLDA</option>
+                <option > Namakkal nmkl</option>
+                <option > NANDALUR NRE</option>
+                <option > NANDGAON NGN</option>
+                <option > NANDURBAR NDB</option>
+                <option > NANDYAL NDL</option>
+                <option > NANGAL DAM NLDM</option>
+                <option > NARKATIAGANJ NKE</option>
+                <option > NARASAPUR NS</option>
+                <option > NARSINGPUR NU</option>
+                <option > NARWANA NRW</option>
+                <option > NASIK ROAD NK</option>
+                <option > NAUGARH NUH</option>
+                <option > NELLORE NLR</option>
+                <option > netajI subhash chandra bose gomoh GMO</option>
+                <option > NEW ALIPURDUAR NOQ</option>
+                <option > NEW BONGAIGAON NBQ</option>
+                <option > NEW COOCHBEHAR NCB</option>
+                <option > NEW DELHI NDLS</option>
+                <option > NEW FARAKKA NFK</option>
+                <option > NEW JALPAIGURI NJP</option>
+                <option > NEWMAL Jn. NMZ</option>
+                <option > NEW TINSUKIA NTSK</option>
+                <option > NIDADAVOLU NDD</option>
+                <option > Nidamangalam NMJ</option>
+                <option > NIDUBROLU NDO</option>
+                <option > NIMACH NMH</option>
+                <option > NIZAMABAD NZB</option>
+                <option > NIZAMUDDIN NZM</option>
+                <option > NOLI NOLI</option>
+                <option > NORTH LAKHIMPUR NLP</option>
+                <option > odlabari odb</option>
+                <option > OKHA OKHA</option>
+                <option > ONGOLE OGL</option>
+                <option > ORAI ORAI</option>
+                <option > PACHORA PC</option>
+                <option > Palani PLNI</option>
+                <option > PALANPUR PNU</option>
+                <option > PALASA PSA</option>
+                <option > PALakkad PGT</option>
+                <option > PALakkad TOWN PGTN</option>
+                <option > PALIAKALAN PLK</option>
+                <option > PANDHARAPUR PVR</option>
+                <option > PANIPAT PNP</option>
+                <option > pARADEEP PRDP</option>
+                <option > PARASNATH PNME</option>
+                <option > PANVEL PNVL</option>
+                <option > PARBHANI PBN</option>
+                <option > pARVATIPURAM TOWN PVPT</option>
+                <option > PATHANKOT PTK</option>
+                <option > PATIALA PTA</option>
+                <option > PATNA PNBE</option>
+                <option > PATNA SAHIB PNC</option>
+                <option > PHALODI PLC</option>
+                <option > PHAPHAMAU PFM</option>
+                <option > PHULERA FL</option>
+                <option > PILIBHIT PBE</option>
+                <option > PIPARIYA PPI</option>
+                <option > PODANUR PTJ</option>
+                <option > PORBANDAR PBR</option>
+                <option > PRATAPGARH PBH</option>
+                <option > Puducherry pdy</option>
+                <option > SILCHAR SCL</option>
+                <option > SILGHAT SHTT</option>
+                <option > SILIGURI SGUJ</option>
+                <option > SILIGURI TOWN SGuT</option>
+                <option > SIMALuGURI SLGR SINGRAULI SGRL</option>
+                <option > SIRPUR KAGAZNAGAR SKZR</option>
+                <option > SIRSA SSA</option>
+                <option > SISWA BAZAR SBZ</option>
+                <option > SITAMARHI SMI</option>
+                <option > SITAPUR city SPC</option>
+                <option > SITAPUR CANTT. SCC</option>
+                <option > SIURI SURI</option>
+                <option > SIWAN SV</option>
+                <option > SOJAT ROAD SOD</option>
+                <option > SOLAN SOL</option>
+                <option > SOLAPUR SUR</option>
+                <option > SOMNATH SMNH</option>
+                <option > SOMPETA SPT</option>
+                <option > SONPUR SEE</option>
+                <option > SRI CHHATRAPATI SHAHU MAHARAJ (T) CSMT</option>
+                <option > SRI DUNGARgARH SDgH</option>
+                <option > SRIGANGA NAGAR SGNr</option>
+                <option > SRIKAKULAM ROAD CHE</option>
+                <option > SRI SAThYASAI PRASHANTI NILAYAM SSPN</option>
+                <option > Sujangarh sujh</option>
+                <option > SULTANPUR SLN</option>
+                <option > SURAT ST</option>
+                <option > SURATGARH SOG</option>
+                <option > SURATHKAL Sl</option>
+                <option > SURENDRA NAGAR SUNR</option>
+                <option > TADEPALLIGUDEM TDD</option>
+                <option > TAMBARAM TBM</option>
+                <option > TATANAGAR TATA</option>
+                <option > Thalassery TLY</option>
+                <option > TENALI TEL</option>
+                <option > TENKASI TS</option>
+                <option > TEZPUR TZTB</option>
+                <option > THANJAVUR TJ</option>
+                <option > THIRUVARUR. TVR</option>
+                <option > TIRUchchirappalli Jn. TPJ</option>
+                <option > TIRUCHENDUR tcn</option>
+                <option > TIRUNELVELI TEN</option>
+                <option > TIRUPATI TPTY</option>
+                <option > tiruppur TUP</option>
+                <option > TIRUR TIR</option>
+                <option > TITLAGARH TIG</option>
+                <option > Thrisur TCR</option>
+                <option > Thiruvananthapuram TVC</option>
+                <option > Tiruvannamalai tnm</option>
+                <option > TUMSAR ROAD TMR</option>
+                <option > TUNDLA TDL</option>
+                <option > TUNI TUNI</option>
+                <option > TUTICORIN TN</option>
+                <option > UDAIPUR CITY UDZ</option>
+                <option > UDHAMPUR UHP</option>
+                <option > UDHNA UDN</option>
+                <option > UDUPI UD</option>
+                <option > UJJAIN UJN</option>
+                <option > UNA UNA</option>
+                <option > UNCHAHAR UCR</option>
+                <option > UNNAO ON</option>
+                <option > VADAKARA BDJ</option>
+                <option > VADODARA BRC</option>
+                <option > VALSAD BL</option>
+                <option > VANCHI MANIYACHCHI Jn. MEJ</option>
+                <option > VARANASI BSB</option>
+                <option > VARKALA VAK</option>
+                <option > VASAI ROAD BSR</option>
+                <option > VASCO-DA-GAMA VSG</option>
+                <option > Velankanni VLKN</option>
+                <option > VERAVAL VRL</option>
+                <option > VIDISHA BHS</option>
+                <option > VIJAYAWADA BZA</option>
+                <option > VILLUPURAM Jn. VM</option>
+                <option > VIRAMGAM VG</option>
+                <option > VIRUDUNAGAR JN. vpt</option>
+                <option > VISAKHAPATNAM VSKP</option>
+                <option > VIZIANAGARAM VZM</option>
+                <option > VRIDDHACHALAM Jn. VRI</option>
+                <option > WADI WADI</option>
+                <option > WANKANER WKR</option>
+                <option > WARANGAL WL</option>
+                <option > WARDHA Jn. WR</option>
+                <option > YESVANTPUR YPR</option>
+                <option > ZAFARABAD ZBD</option>
+            </select>
+            <br>
+            <label for="to">To:</label>
+            <select name="to" id="to" required>
+                <option > Station To</option>
+                <option > ABU ROAD ABR</option>
+                <option > adilabad adb</option>
+                <option > ADONI AD</option>
+                <option > ADRA ADRA</option>
+                <option > AGARTALA AGTL</option>
+                <option > AGRA FORT AF</option>
+                <option > AGRA CANTT. AGC</option>
+                <option > AHMADNAGAR ANG</option>
+                <option > AHMEDABAD ADI</option>
+                <option > AJMER AII</option>
+                <option > Ajni AJNI</option>
+                <option > AKOLA AK</option>
+                <option > ALIGARH ALJN</option>
+                <option > ALIPURDUAR Jn. APDJ</option>
+                <option > ALLAHABAD ALD</option>
+                <option > ALAPPUZHA ALLP</option>
+                <option > ALNAWAR Jn. LWR</option>
+                <option > ALUVA AWY</option>
+                <option > ALWAR AWR</option>
+                <option > AMALNER AN</option>
+                <option > AMB ANDAVRA AADR</option>
+                <option > AMBALA CANTT. UMB</option>
+                <option > AMBIKAPUR abkp</option>
+                <option > AMLa Amla</option>
+                <option > AMRITSAR ASR</option>
+                <option > ANAKAPALLE AKP</option>
+                <option > ANAND ANND</option>
+                <option > ANAND NAGAR ANDN</option>
+                <option > ANAND VIHar Terminus ANVT</option>
+                <option > ANANTAPUR ATP</option>
+                <option > ANGUL ANGL</option>
+                <option > ANNAVARAM ANV</option>
+                <option > ANUPPUR apr</option>
+                <option > ARA ARA</option>
+                <option > ARAKKONAM AJJ</option>
+                <option > ARSIKERE ASK</option>
+                <option > ASANSOL ASN</option>
+                <option > AUNRIHAR ARJ</option>
+                <option > AURANGABAD AWB</option>
+                <option > AYODHYA AY</option>
+                <option > AZAMGARH AMH</option>
+                <option > AZIMGANJ Jn. AZ</option>
+                <option > BADARPUR BPB</option>
+                <option > BADNERA Jn. BD</option>
+                <option > BAGALKOT Bgk</option>
+                <option > BAGHPAT ROAD BPM</option>
+                <option > BAIDYANATHDHAM BDME</option>
+                <option > BAKTHIYARPUR bKP</option>
+                <option > BALASORE BLS</option>
+                <option > BALAGHAT BTC</option>
+                <option > BALANGIR blgr</option>
+                <option > baluGAON BAlU</option>
+                <option > BALURGHAT BLGT</option>
+                <option > BALHARSHAH BPQ</option>
+                <option > BALLIA BUI</option>
+                <option > BANARHAT BNQ</option>
+                <option > BANDA Jn. BNDA</option>
+                <option > BANDEL Jn. BDC</option>
+                <option > BANDIKUI Jn. BKI</option>
+                <option > BANdra (T) Bdts</option>
+                <option > BANGALORE CITY SBC</option>
+                <option > BANGALORE CANTT. BNC</option>
+                <option > BANGARAPET BWt</option>
+                <option > bangriposi bgy</option>
+                <option > BANKURA BQA</option>
+                <option > BANMANKHI BNKI</option>
+                <option > BAPATLA BPP</option>
+                <option > BARABANKI Jn. BBK</option>
+                <option > BARaBIL BBN</option>
+                <option > BARAN BAZ</option>
+                <option > BARAUNI Jn. BJU</option>
+                <option > BARAUT BTU</option>
+                <option > BARAPALLI brPL</option>
+                <option > BARDDHAMAN Jn. BWN</option>
+                <option > BAREILLY BE</option>
+                <option > BARGARH ROAD BRGA</option>
+                <option > BARHNI BNY</option>
+                <option > BARKAKANA BRKA</option>
+                <option > BARMER BME</option>
+                <option > BAROG BOF</option>
+                <option > BARSOI BOE</option>
+                <option > BARWADIH BRWD</option>
+                <option > BASAR BSX</option>
+                <option > BASTI BST</option>
+                <option > BAThINDA Jn. BTI</option>
+                <option > BAYANA BXN</option>
+                <option > BEAS BEAS</option>
+                <option > BEAWAR BER</option>
+                <option > BELAPUR BAP</option>
+                <option > BELGAUM BGM</option>
+                <option > BELLARY Jn. BAY</option>
+                <option > BETTIAH BTH</option>
+                <option > BETUL BZU</option>
+                <option > BHADOHI BOY</option>
+                <option > BHADRAK BHC</option>
+                <option > BHAGALPUR BGP</option>
+                <option > Bhagat Ki Kothi BGKI</option>
+                <option > BHARATPUR BTE</option>
+                <option > BHARUCH BH</option>
+                <option > BHATAPARA BYT</option>
+                <option > BHATKAL BTJL</option>
+                <option > BHATNI BTT</option>
+                <option > BHAVNAGAR (t) BVC</option>
+                <option > BHAWANIPATNA BWPI</option>
+                <option > BHILWARA BHL</option>
+                <option > BHIMAVARAM Jn. BVRM</option>
+                <option > BHIMAVARAM TOWN BVRT</option>
+                <option > BHIND BIX</option>
+                <option > BHIWANI BNW</option>
+                <option > BHOPAL BPL</option>
+                <option > BHUBANESWAR BBS</option>
+                <option > BHUJ BHUJ</option>
+                <option > BHUSAVAL BSL</option>
+                <option > BIJAPUR BJP</option>
+                <option > BIJNOR BJO</option>
+                <option > BIKANER BKN</option>
+                <option > BILASPUR jn. BSP</option>
+                <option > BINA BINA</option>
+                <option > BINNAGURI BNV</option>
+                <option > BIRUR RRB</option>
+                <option > BITRAGUNTA BTTR</option>
+                <option > biyavara rajgarh brrg</option>
+                <option > BOBBILI VBL</option>
+                <option > BOINDA bONA</option>
+                <option > Barapalli brpl</option>
+                <option > baghbahar bgbr</option>
+                <option > BOKARO STEEL CITY BKSC</option>
+                <option > bOLPUR SHANTINIKETAn bhp</option>
+                <option > BORIVALI BVI</option>
+                <option > BOTAD BTD</option>
+                <option > BUDAUN BEM</option>
+                <option > bundi budi</option>
+                <option > BURHANPUR BAU</option>
+                <option > BURHWAL BUW</option>
+                <option > BUXAR BXR</option>
+                <option > CANACONA CNO</option>
+                <option > CHAKIA CAA</option>
+                <option > CHAKKI BANK CHKB</option>
+                <option > CHAKRADHARPUR CKP</option>
+                <option > CHALISGAON CSN</option>
+                <option > CHAMPA CPH</option>
+                <option > CHANDAUSI CH</option>
+                <option > chanderiya cna</option>
+                <option > CHANDIGARH CDG</option>
+                <option > CHANDIL CNI</option>
+                <option > CHANDRAPUR CD</option>
+                <option > CHANDRAPURA CRP</option>
+                <option > CHAPARMUKH CPK</option>
+                <option > cHATRAPUR CAP</option>
+                <option > CHENGALPATTU Jn. CGL</option>
+                <option > CHENGANNUR CNGR</option>
+                <option > CHENNAI CENTRAL MAS</option>
+                <option > CHENNAI EGMORE MS</option>
+                <option > CHHAPRA CPR</option>
+                <option > CHHINDWARA cwa</option>
+                <option > CHIDAMBARAM CDM</option>
+                <option > CHIKJAJUR JRU</option>
+                <option > CHIPLUN CHI</option>
+                <option > CHIRALA CLX</option>
+                <option > CHITRAKOOTDHAM KARVI CKTD</option>
+                <option > CHITTARANJAN CRJ</option>
+                <option > CHITTAURGARH COR</option>
+                <option > CHITTOOR CTO</option>
+                <option > CHOPAN CPU</option>
+                <option > CHUNAR CAR</option>
+                <option > CHURU CUR</option>
+                <option > COIMBATORE Jn. CBE</option>
+                <option > coonoor ONR</option>
+                <option > CUDDALORE PORT CUPJ</option>
+                <option > CUDDAPAH HX</option>
+                <option > CUTTACK CTC</option>
+                <option > DADAR DR</option>
+                <option > DAHANU ROAD DRD</option>
+                <option > DAHOD DHD</option>
+                <option > DALGAON DLO</option>
+                <option > DALTONGANJ DTO</option>
+                <option > DALLIRAJHARA DRZ</option>
+                <option > DAMOH DMO</option>
+                <option > DANAPUR DNR</option>
+                <option > DARBHANGA DBG</option>
+                <option > DAUND DD</option>
+                <option > DAVANGERE DVG</option>
+                <option > DEHRADUN DDN</option>
+                <option > DEHRI-ON-SONE DOS</option>
+                <option > DELHI DLI</option>
+                <option > NEW DELHI NDLS</option>
+                <option > DELHI CANTT. DEC</option>
+                <option > DELHI SARAI ROHILLA DEE</option>
+                <option > DELHI SHAHDARA DSA</option>
+                <option > DEORIASADAR DEOS</option>
+                <option > DEVLALI DVL</option>
+                <option > DHAMANGAON DMN</option>
+                <option > DHANBAD DHN</option>
+                <option > DHARMABAD DAB</option>
+                <option > dharmanagar dmr</option>
+                <option > DHARMAPURI DPJ</option>
+                <option > DHARMAVARAM DMM</option>
+                <option > DHARWAD DWR</option>
+                <option > DHASA DAS</option>
+                <option > DHAULPUR DHO</option>
+                <option > Dhenuanal dnul</option>
+                <option > DHOLA DLJ</option>
+                <option > DHONE DHNE</option>
+                <option > DHRANGADHRA DHG</option>
+                <option > dhubri dbb</option>
+                <option > DHURI DUI</option>
+                <option > DIBRUGARH DBRG</option>
+                <option > DIBRUGARH TOWN DBRT</option>
+                <option > digha dgha</option>
+                <option > DILDARNAGAR DLN</option>
+                <option > DIMAPUR DMV</option>
+                <option > DINDIGUL Jn. DG</option>
+                <option > DONGARGARH DGG</option>
+                <option > DORNAKAL DKJ</option>
+                <option > DUNGARPUR DNRP</option>
+                <option > DURG DURG</option>
+                <option > DURGAPUR DGR</option>
+                <option > duvvada dvd</option>
+                <option > DWARKA DWK</option>
+                <option > ELURU EE</option>
+                <option > ERNAKULAM Jn. ERS</option>
+                <option > ERNAKULAM TOWN ERN</option>
+                <option > ERODE ED</option>
+                <option > ETAWAH ETW</option>
+                <option > FAIZABAD FD</option>
+                <option > FARIDABAD FDB</option>
+                <option > FARRUKHABAD FBD</option>
+                <option > FATEhABAD CHAND FTD</option>
+                <option > FATEHPUR FTP</option>
+                <option > FATUHA FUT</option>
+                <option > FAZILKA FKA</option>
+                <option > FIROZABAD FZD</option>
+                <option > FIROZPUR CITY FZP</option>
+                <option > FIROZPUR CANTT. FZR</option>
+                <option > FORBESGANJ FBG</option>
+                <option > FURKATING FKG</option>
+                <option > GADAG GDG</option>
+                <option > GAJRAULA GJL</option>
+                <option > GANDHIDHAM GIM</option>
+                <option > GANDHINAGAR GADJ</option>
+                <option > GANGAPUR CITY GGC</option>
+                <option > GARWA ROAD GHD</option>
+                <option > GAYA GAYA</option>
+                <option > GEVRA ROAD GAD</option>
+                <option > GHATSILA GTS</option>
+                <option > GHAZIABAD GZB</option>
+                <option > GOALPARA TOWN GLPT</option>
+                <option > GODHRA GDA</option>
+                <option > GOLA GOKARANNATH GK</option>
+                <option > GONDA GD</option>
+                <option > GONDIA G</option>
+                <option > GOOTY GY</option>
+                <option > GORAKHPUR GKP</option>
+                <option > GOSsAINGAon HAT GOGH</option>
+                <option > GUDIVADA GDV</option>
+                <option > GUDUR GDR</option>
+                <option > GULBARGA GR</option>
+                <option > GUNA GUNA</option>
+                <option > GUNTAKAL GTL</option>
+                <option > GUNTUR GNT</option>
+                <option > gurgaon ggn</option>
+                <option > GUruvayUR Guv</option>
+                <option > GUWAHATI GHY</option>
+                <option > GWALIOR GWL</option>
+                <option > GYANPUR ROAD GYN</option>
+                <option > HABIBGANJ HBJ</option>
+                <option > HAJIPUR HJP</option>
+                <option > HALDIA HLZ</option>
+                <option > HALDIBARI HDB</option>
+                <option > HAMILTONGANJ HOJ</option>
+                <option > HANUMANGARH HMH</option>
+                <option > HAPA HAPA</option>
+                <option > HAPUR HPU</option>
+                <option > HARDA HD</option>
+                <option > HARIDWAR HW</option>
+                <option > HARIHAR HRR</option>
+                <option > HARPALPUR HPP</option>
+                <option > HASIMARA HSA</option>
+                <option > HATIA HTE</option>
+                <option > HAZUR SAHIB NANDED NED</option>
+                <option > HILSA HIL</option>
+                <option > HIMMAT NAGAR HMT</option>
+                <option > HINDUPUR HUP</option>
+                <option > HINGOLI HNL</option>
+                <option > HISAR HSR</option>
+                <option > HOSHANGABAD HBD</option>
+                <option > HOSPET HPT</option>
+                <option > HOSUR HSRA</option>
+                <option > HOWBAdH HBG</option>
+                <option > HOWRAH HWH</option>
+                <option > HUBLI UBL</option>
+                <option > HYDERABAD HYB</option>
+                <option > IGATPURI IGP</option>
+                <option > INDARA IAA</option>
+                <option > INDORE INDB</option>
+                <option > ISLAMPUR IPR</option>
+                <option > ITARSI ET</option>
+                <option > JABALPUR JBP</option>
+                <option > Jagdalpur jdb</option>
+                <option > JAIPUR JP</option>
+                <option > Jaypur jyp</option>
+                <option > JAISALMER JSM</option>
+                <option > JAJPUR KEONJHAR ROAD JJKR</option>
+                <option > JAKHAL JHL</option>
+                <option > JALAMB JM</option>
+                <option > JALANDHAR CANTT. JRC</option>
+                <option > JALANDHAR CITY JUC</option>
+                <option > JALGAON JL</option>
+                <option > JALNA J</option>
+                <option > JALPAIGURI JPG</option>
+                <option > JAMALPUR JMP</option>
+                <option > JAMMU TAWI JAT</option>
+                <option > JAMNAGAR JAM</option>
+                <option > JANGHAI JNH</option>
+                <option > JASIDIH JSME</option>
+                <option > JAUNPUR Jn. JNU</option>
+                <option > JAYNAGAR JYG</option>
+                <option > JETALSAR JLR</option>
+                <option > JHAJHA JAJ</option>
+                <option > JHANSI JHS</option>
+                <option > JHARGRAM JGM</option>
+                <option > JHARSUGUDA JSG</option>
+                <option > JIND JIND</option>
+                <option > JODHPUR JU</option>
+                <option > jogbani JBN</option>
+                <option > JOLARPETTAI JTJ</option>
+                <option > JORHAT JT</option>
+                <option > JUNAGARH Jn. JND</option>
+                <option > KACHEGUDA KCG</option>
+                <option > KAKINADA PORT COA</option>
+                <option > KALCHINI KCF</option>
+                <option > KALKA KLK</option>
+                <option > KALOL KLL</option>
+                <option > KALYAN KYN</option>
+                <option > KAMAKHYA KYQ</option>
+                <option > KANCHIPURAM CJ</option>
+                <option > KANDHLA KQL</option>
+                <option > KANNIYAKUMARI CAPE</option>
+                <option > KANNUR CAN</option>
+                <option > KANPUR CENTRAL CNB</option>
+                <option > KANPUR ANWARGANJ CPA</option>
+                <option > KAPTANGANJ CPJ</option>
+                <option > Karaikal kik</option>
+                <option > KARAIKKUDI Jn. KKDI</option>
+                <option > KARimganj kxj</option>
+                <option > KARNAL KUN</option>
+                <option > KARUR KRR</option>
+                <option > KARWAR KAWR</option>
+                <option > KASARaGOD KGQ</option>
+                <option > KASGANJ KSJ</option>
+                <option > KATHGODAM KGM</option>
+                <option > KATIHAR KIR</option>
+                <option > KATNI KTE</option>
+                <option > KATNI MURWARA KMZ</option>
+                <option > KATPADI KPD</option>
+                <option > KATWA KWAE</option>
+                <option > KAZIPET KZJ</option>
+                <option > kESINGA ksng</option>
+                <option > KENDUJHARGARH KDJR</option>
+                <option > KHAGARIA KGG</option>
+                <option > KHALILABAD KLD</option>
+                <option > KHAMMAM KMT</option>
+                <option > KHANDWA KNW</option>
+                <option > KHARAGPUR KGP</option>
+                <option > KHEKRA KEX</option>
+                <option > KHURDA ROAD KUR</option>
+                <option > KHURJA KRJ</option>
+                <option > KISHANGANJ KNE</option>
+                <option > KISHANGARH KSG</option>
+                <option > KIUL KIUL</option>
+                <option > KOCHUVELI KCVL</option>
+                <option > KODAIKANAL ROAD KQN</option>
+                <option > kolkata koaa</option>
+                <option > kollam QLN</option>
+                <option > KOPERGAON KPG</option>
+                <option > KORAPUT KRPU</option>
+                <option > KORBA KRBA</option>
+                <option > KOTA KOTA</option>
+                <option > KOTDWARA KTW</option>
+                <option > KOT KAPURA KKP</option>
+                <option > KOTTAYAM KTYM</option>
+                <option > KOZHIKODE CLT</option>
+                <option > KRISHNANAGAR CITY KNJ</option>
+                <option > KRISHNARAJAPURAM KJM</option>
+                <option > kumarghat kugt</option>
+                <option > KUMBAKONAM KMU</option>
+                <option > KUNDAPURA KUDA</option>
+                <option > KURDUWADI KWV</option>
+                <option > KURNOOL TOWN KRNT</option>
+                <option > KURUKSHETRA KKDE</option>
+                <option > LAKHIMPUR LMP</option>
+                <option > LAKSAR LRJ</option>
+                <option > LALGARH LGH</option>
+                <option > LALGOLA LGL</option>
+                <option > LALITPUR LAR</option>
+                <option > LALKUAN JN. LKU</option>
+                <option > LATUR LUR</option>
+                <option > LEDO LEDO</option>
+                <option > LOHARU LHU</option>
+                <option > LOKMANYA TILAK (T) LTT</option>
+                <option > LONAVLA LNL</option>
+                <option > LONDA LD</option>
+                <option > LOWER HALFLONG LFG</option>
+                <option > LUCKNOW LJN/LKO</option>
+                <option > LUDHIANA LDH</option>
+                <option > LUMDING LMG</option>
+                <option > LUNI LUNI</option>
+                <option > MACHILIPATNAM MTM</option>
+                <option > MADARIHAT MDT</option>
+                <option > MADDUR MAD</option>
+                <option > MADGAON (GOA) MAO</option>
+                <option > MADHUBANI MBI</option>
+                <option > MADHUPUR MDP</option>
+                <option > MADURAI Jn. MDU</option>
+                <option > MAHASAMUND msmD</option>
+                <option > MAHBUBNAGAR MBNR</option>
+                <option > MAHuva mhv</option>
+                <option > MUNIGUDA mngd</option>
+                <option > MAHESANA MSH</option>
+                <option > MAHOBA MBA</option>
+                <option > MAILANI MLN</option>
+                <option > MAKSI MKC</option>
+                <option > MALDA TOWN MLDT</option>
+                <option > MANAMADURAI MNM</option>
+                <option > MANDUADIH MUV</option>
+                <option > MANGALORE CENTRAL MAQ</option>
+                <option > MANGALORE JN. MAJN</option>
+                <option > MANIKPUR MKP</option>
+                <option > MANKAPUR MUR</option>
+                <option > MANMAD MMR</option>
+                <option > Mannargudi MQ</option>
+                <option > MANSI MNE</option>
+                <option > manu manu</option>
+                <option > MARIANI MXN</option>
+                <option > MARWAR Jn. MJ</option>
+                <option > MATHURA MTJ</option>
+                <option > MAU MAU</option>
+                <option > MAYILADUTURAI Jn. MV</option>
+                <option > MEERUT CITY MTC</option>
+                <option > MERTA ROAD MTD</option>
+                <option > METTUPALAYAM MTP</option>
+                <option > MIDNAPore MDN</option>
+                <option > MIRAJ MRJ</option>
+                <option > MIRYALAGUDA MRGA</option>
+                <option > MIRZAPUR MZP</option>
+                <option > MOGA MOF</option>
+                <option > MOKAMA mka</option>
+                <option > PUDUKOTTAI PDKT</option>
+                <option > PULGAON PLO</option>
+                <option > PUNE Jn. PUNE</option>
+                <option > PURANPUR PP</option>
+                <option > PURI PURI</option>
+                <option > PURNA PAU</option>
+                <option > PURNIA PRNA</option>
+                <option > PURULIA PRR</option>
+                <option > RADHIKAPUR RDP</option>
+                <option > RAE BARELI RBL</option>
+                <option > RAICHUR RC</option>
+                <option > RAIGARH RIG</option>
+                <option > RAIPUR R</option>
+                <option > RAJAHMUNDRY RJY</option>
+                <option > RAJA-KA-SAHASPUR RJK</option>
+                <option > RAJA-KI-MANDI RKM</option>
+                <option > RAJENDRANAGAR RJQ</option>
+                <option > RAJGIR RGD</option>
+                <option > RAJKOT RJT</option>
+                <option > RAJNANDGAON RJN</option>
+                <option > RAJPURA RPJ</option>
+                <option > RAMAGUNDAM RDM</option>
+                <option > RAMANATHAPURAM RMD</option>
+                <option > RAMESWARAM RMM</option>
+                <option > RAMNAGAR RMR</option>
+                <option > RAMPUR JN. RMU</option>
+                <option > RAMPURHAT RPH</option>
+                <option > RANAGHAT RHA</option>
+                <option > RANCHI RNC</option>
+                <option > RANGAPARA NORTH RPAN</option>
+                <option > RANGIYA RNY</option>
+                <option > RANINAGAR ROJ</option>
+                <option > RATANGARH RTGH</option>
+                <option > RATLAM RTM</option>
+                <option > RATNAGIRI RN</option>
+                <option > RAWATGANJ RJ</option>
+                <option > RAXAUL RXL</option>
+                <option > RAYAGADA RGDA</option>
+                <option > RENIGUNTA RU</option>
+                <option > REWA REWA</option>
+                <option > REWARI RE</option>
+                <option > RINGUS RGS</option>
+                <option > ROHTAK ROK</option>
+                <option > ROORKEE RK</option>
+                <option > ROURKELA ROU</option>
+                <option > SADULPUR SDLP</option>
+                <option > SAGAR jambagaru SRF</option>
+                <option > SAGAULI SGL</option>
+                <option > SAGOUR SGO</option>
+                <option > SAHARANPUR SRE</option>
+                <option > SAHARSA SHC</option>
+                <option > SAHIBGANJ SBG</option>
+                <option > SAI NAGAR SHIRDI SNSI</option>
+                <option > SALEM SA</option>
+                <option > SALEMPUR SRU</option>
+                <option > SAMALKOT SLO</option>
+                <option > SAMASTIPUR SPJ</option>
+                <option > SAMBALPUR SBP</option>
+                <option > SAMBALPUR CITY SBPY</option>
+                <option > SAMDARI SMR</option>
+                <option > SAMUKTALA road AMTA</option>
+                <option > SANGLI SLI</option>
+                <option > santragachi src</option>
+                <option > SARNATH SRNT</option>
+                <option > SATARA STR</option>
+                <option > SATNA STA</option>
+                <option > SATTENAPALLE SAP</option>
+                <option > SAWAIMADHOPUR SWM</option>
+                <option > SAWANTWADI ROAD SWV</option>
+                <option > SEALDAH SDAH</option>
+                <option > SECUNDERABAD SC</option>
+                <option > SENGOTTAI SCT</option>
+                <option > SENSOA scf</option>
+                <option > SEWAGRAM SEGM</option>
+                <option > SHAHABAD SDB</option>
+                <option > SHAHGANJ SHG</option>
+                <option > SHAHJAHANPUR SPN</option>
+                <option > SHAHPUR PATOREE SPP</option>
+                <option > SHAKTINAGAR SKTN</option>
+                <option > SHALIMAR SHM</option>
+                <option > SHAMGARH SGZ</option>
+                <option > SHAMLI SMqL</option>
+                <option > SHIKOHABAD SKB</option>
+                <option > SHIMLA SML</option>
+                <option > SHIMOGA TOWN SMET</option>
+                <option > SHIVPURI SVPI</option>
+                <option > SHORANUR JN. SRR</option>
+                <option > SHRI MAHABIRJI SMBJ</option>
+                <option > SIHOR gujarat SOJN</option>
+                <option > SIKAR SIKR</option>
+                <option > MORADABAD MB</option>
+                <option > MOTIHARI MKI</option>
+                <option > MUDKHED MUE</option>
+                <option > MUGHALSARAI MGS</option>
+                <option > MUMBAI CENTRAL BCT</option>
+                <option > MUMBAI CST CSTM</option>
+                <option > Muniguda mngd</option>
+                <option > MURI MURI</option>
+                <option > MURKeONGSELEK MZS</option>
+                <option > MURTAJAPUR MZR</option>
+                <option > MUZAFFAR NAGAR MOZ</option>
+                <option > MUZAFFARPUR MFP</option>
+                <option > MYSORE MYS</option>
+                <option > nabadwipdham ndae</option>
+                <option > NADIAD ND</option>
+                <option > NADIKUDi NDKD</option>
+                <option > Nagappattinam Ngt</option>
+                <option > nagarkata nkb</option>
+                <option > NAGARSOL NSL</option>
+                <option > NAGBHIR NAB</option>
+                <option > NAGDA NAD</option>
+                <option > NAGERCOIL Jn. NCJ</option>
+                <option > NAGORE NCR</option>
+                <option > NAGPUR NGP</option>
+                <option > nagrakata nkb</option>
+                <option > NAINPUR NIR</option>
+                <option > NAJIBABAD NBD</option>
+                <option > NALANDA NLD</option>
+                <option > NALGONDA NLDA</option>
+                <option > Namakkal nmkl</option>
+                <option > NANDALUR NRE</option>
+                <option > NANDGAON NGN</option>
+                <option > NANDURBAR NDB</option>
+                <option > NANDYAL NDL</option>
+                <option > NANGAL DAM NLDM</option>
+                <option > NARKATIAGANJ NKE</option>
+                <option > NARASAPUR NS</option>
+                <option > NARSINGPUR NU</option>
+                <option > NARWANA NRW</option>
+                <option > NASIK ROAD NK</option>
+                <option > NAUGARH NUH</option>
+                <option > NELLORE NLR</option>
+                <option > netajI subhash chandra bose gomoh GMO</option>
+                <option > NEW ALIPURDUAR NOQ</option>
+                <option > NEW BONGAIGAON NBQ</option>
+                <option > NEW COOCHBEHAR NCB</option>
+                <option > NEW DELHI NDLS</option>
+                <option > NEW FARAKKA NFK</option>
+                <option > NEW JALPAIGURI NJP</option>
+                <option > NEWMAL Jn. NMZ</option>
+                <option > NEW TINSUKIA NTSK</option>
+                <option > NIDADAVOLU NDD</option>
+                <option > Nidamangalam NMJ</option>
+                <option > NIDUBROLU NDO</option>
+                <option > NIMACH NMH</option>
+                <option > NIZAMABAD NZB</option>
+                <option > NIZAMUDDIN NZM</option>
+                <option > NOLI NOLI</option>
+                <option > NORTH LAKHIMPUR NLP</option>
+                <option > odlabari odb</option>
+                <option > OKHA OKHA</option>
+                <option > ONGOLE OGL</option>
+                <option > ORAI ORAI</option>
+                <option > PACHORA PC</option>
+                <option > Palani PLNI</option>
+                <option > PALANPUR PNU</option>
+                <option > PALASA PSA</option>
+                <option > PALakkad PGT</option>
+                <option > PALakkad TOWN PGTN</option>
+                <option > PALIAKALAN PLK</option>
+                <option > PANDHARAPUR PVR</option>
+                <option > PANIPAT PNP</option>
+                <option > pARADEEP PRDP</option>
+                <option > PARASNATH PNME</option>
+                <option > PANVEL PNVL</option>
+                <option > PARBHANI PBN</option>
+                <option > pARVATIPURAM TOWN PVPT</option>
+                <option > PATHANKOT PTK</option>
+                <option > PATIALA PTA</option>
+                <option > PATNA PNBE</option>
+                <option > PATNA SAHIB PNC</option>
+                <option > PHALODI PLC</option>
+                <option > PHAPHAMAU PFM</option>
+                <option > PHULERA FL</option>
+                <option > PILIBHIT PBE</option>
+                <option > PIPARIYA PPI</option>
+                <option > PODANUR PTJ</option>
+                <option > PORBANDAR PBR</option>
+                <option > PRATAPGARH PBH</option>
+                <option > Puducherry pdy</option>
+                <option > SILCHAR SCL</option>
+                <option > SILGHAT SHTT</option>
+                <option > SILIGURI SGUJ</option>
+                <option > SILIGURI TOWN SGuT</option>
+                <option > SIMALuGURI SLGR SINGRAULI SGRL</option>
+                <option > SIRPUR KAGAZNAGAR SKZR</option>
+                <option > SIRSA SSA</option>
+                <option > SISWA BAZAR SBZ</option>
+                <option > SITAMARHI SMI</option>
+                <option > SITAPUR city SPC</option>
+                <option > SITAPUR CANTT. SCC</option>
+                <option > SIURI SURI</option>
+                <option > SIWAN SV</option>
+                <option > SOJAT ROAD SOD</option>
+                <option > SOLAN SOL</option>
+                <option > SOLAPUR SUR</option>
+                <option > SOMNATH SMNH</option>
+                <option > SOMPETA SPT</option>
+                <option > SONPUR SEE</option>
+                <option > SRI CHHATRAPATI SHAHU MAHARAJ (T) CSMT</option>
+                <option > SRI DUNGARgARH SDgH</option>
+                <option > SRIGANGA NAGAR SGNr</option>
+                <option > SRIKAKULAM ROAD CHE</option>
+                <option > SRI SAThYASAI PRASHANTI NILAYAM SSPN</option>
+                <option > Sujangarh sujh</option>
+                <option > SULTANPUR SLN</option>
+                <option > SURAT ST</option>
+                <option > SURATGARH SOG</option>
+                <option > SURATHKAL Sl</option>
+                <option > SURENDRA NAGAR SUNR</option>
+                <option > TADEPALLIGUDEM TDD</option>
+                <option > TAMBARAM TBM</option>
+                <option > TATANAGAR TATA</option>
+                <option > Thalassery TLY</option>
+                <option > TENALI TEL</option>
+                <option > TENKASI TS</option>
+                <option > TEZPUR TZTB</option>
+                <option > THANJAVUR TJ</option>
+                <option > THIRUVARUR. TVR</option>
+                <option > TIRUchchirappalli Jn. TPJ</option>
+                <option > TIRUCHENDUR tcn</option>
+                <option > TIRUNELVELI TEN</option>
+                <option > TIRUPATI TPTY</option>
+                <option > tiruppur TUP</option>
+                <option > TIRUR TIR</option>
+                <option > TITLAGARH TIG</option>
+                <option > Thrisur TCR</option>
+                <option > Thiruvananthapuram TVC</option>
+                <option > Tiruvannamalai tnm</option>
+                <option > TUMSAR ROAD TMR</option>
+                <option > TUNDLA TDL</option>
+                <option > TUNI TUNI</option>
+                <option > TUTICORIN TN</option>
+                <option > UDAIPUR CITY UDZ</option>
+                <option > UDHAMPUR UHP</option>
+                <option > UDHNA UDN</option>
+                <option > UDUPI UD</option>
+                <option > UJJAIN UJN</option>
+                <option > UNA UNA</option>
+                <option > UNCHAHAR UCR</option>
+                <option > UNNAO ON</option>
+                <option > VADAKARA BDJ</option>
+                <option > VADODARA BRC</option>
+                <option > VALSAD BL</option>
+                <option > VANCHI MANIYACHCHI Jn. MEJ</option>
+                <option > VARANASI BSB</option>
+                <option > VARKALA VAK</option>
+                <option > VASAI ROAD BSR</option>
+                <option > VASCO-DA-GAMA VSG</option>
+                <option > Velankanni VLKN</option>
+                <option > VERAVAL VRL</option>
+                <option > VIDISHA BHS</option>
+                <option > VIJAYAWADA BZA</option>
+                <option > VILLUPURAM Jn. VM</option>
+                <option > VIRAMGAM VG</option>
+                <option > VIRUDUNAGAR JN. vpt</option>
+                <option > VISAKHAPATNAM VSKP</option>
+                <option > VIZIANAGARAM VZM</option>
+                <option > VRIDDHACHALAM Jn. VRI</option>
+                <option > WADI WADI</option>
+                <option > WANKANER WKR</option>
+                <option > WARANGAL WL</option>
+                <option > WARDHA Jn. WR</option>
+                <option > YESVANTPUR YPR</option>
+                <option > ZAFARABAD ZBD</option>    
+            </select>
+            
+            <br>
+
+            <label for="date-of-journey">Date of journey:</label>
+            <input type="date" placeholder="DD/MM/YYYY" required>
+
+            <br>
+
+            <label for="class">Class:</label>
+            <select name="class" id="class" required>
+                <option value="All Classes">All Classes</option>
+                <option value="Anubhuti Class (EA)">Anubhuti Class (EA)</option>
+                <option value="AC First Class (1A)">AC First Class (1A)</option>
+                <option value="Vistadome AC (EV)">Vistadome AC (EV)</option>
+                <option value="Exec. Chair Car (EC)">Exec. Chair Car (EC)</option>
+                <option value="AC 2 Tier (2A)">AC 2 Tier (2A)</option>
+                <option value="First Class (FC)">First Class (FC)</option>
+                <option value="AC 3 Tier (3A)">AC 3 Tier (3A)</option>
+                <option value="AC 3 Economy (3E)">AC 3 Economy (3E)</option>
+                <option value="Vistadome Chair Car (VC)">Vistadome Chair Car (VC)</option>
+                <option value="AC Chair Car (CC)">AC Chair Car (CC)</option>
+                <option value="Sleeper (SL)">Sleeper (SL)</option>
+                <option value="Vistadome Non AC (VS)">Vistadome Non AC (VS)</option>
+                <option value="Second Sitting (2S)">Second Sitting (2S)</option>
+            </select>
+
+            <br>
+
+            <label for="general">General:</label>
+            <select name="general" id="general" required>
+                <option value="General">General</option>
+                <option value="Ladies">Ladies</option>
+                <option value="Lower Berth / SR.Citizen">Lower Berth / SR.Citizen</option>
+                <option value="Person With disability">Person With disability</option>
+                <option value="Tatkal">Tatkal</option>
+                <option value="premium Tatkal">premium Tatkal</option>
+            </select>
+
+            <br>
+
+            <input type="checkbox" id="railway-pass" name="railway-pass" value="Railways Pass Concession">
+            <label for="vehicle1">Railways Pass Concession</label>
+
+            <br>
+
+            <input type="checkbox" id="doctor" name="doctor" value="doctor">
+            <label for="vehicle1">If you are a Medical Practitoner (You could be of help in an emergency) </label>
+
+            <br>
+
+            <a href="error-page.html">  <button type="submit" class="search">Search</button> </a>
+        </form>
+    </div>
+
+    <!-- ==== PNR satus -->
+
+    <div class="pnr">
+        <h1>PNR Status</h1>
+        <form action="">
+            <label for="pnr">Enter PNR no:</label>
+            <input type="number" name="pnr" id="pnr" placeholder="PNR" required>
+            <a href="error-page.html">  <button type="submit" class="search">Search</button> </a>
+        </form>
+    </div>
+</body>
+</html>
