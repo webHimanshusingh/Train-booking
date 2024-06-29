@@ -2,6 +2,9 @@
 
 LinkedIn- https://www.linkedin.com/in/website-himanshu-singh<br>
 GitHub-https://github.com/webHimanshusingh<br>
+
+
+# jion us
 Home Page<br>
 Welcome Message: Briefly introduce the website and its purpose.<br>
 Search Bar: A prominent search bar for users to input travel details (e.g., departure and arrival stations, date of travel).<br>
@@ -40,9 +43,9 @@ Quick Links: Links to important pages like Home, Search, Account, Contact Us, et
 Social Media Links: Icons linking to the company's social media profiles.<br>
 Newsletter Signup: Option to subscribe to the company's newsletter for updates and offers.<br>
 
-#OUTPUT - 1
+# OUTPUT - 1
 ![Screenshot 2024-06-29 111442](https://github.com/webHimanshusingh/Train-booking/assets/170223793/29cfd493-b212-4f3b-8aea-3c9ce92471f0)
-#OUTPUT - 2
+# OUTPUT - 2
 ![Screenshot 2024-06-29 111455](https://github.com/webHimanshusingh/Train-booking/assets/170223793/70b46f8b-f449-4405-b828-ffcbe466edf8)
 
 
